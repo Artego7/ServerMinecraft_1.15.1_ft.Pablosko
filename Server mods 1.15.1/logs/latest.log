@@ -1,0 +1,179 @@
+[31ene2020 16:50:57.008] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 30.0.41, --fml.mcpVersion, 20191217.105819, --fml.mcVersion, 1.15.1, --fml.forgeGroup, net.minecraftforge]
+[31ene2020 16:50:57.011] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_241 by Oracle Corporation
+[31ene2020 16:50:57.535] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[31ene2020 16:50:58.870] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[31ene2020 16:51:09.958] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[31ene2020 16:51:09.970] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31ene2020 16:51:09.985] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31ene2020 16:51:10.001] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[31ene2020 16:51:10.003] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31ene2020 16:51:11.312] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.1
+[31ene2020 16:51:12.471] [modloading-worker-3/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity waddles:adelie_penguin
+[31ene2020 16:51:12.932] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:atv
+[31ene2020 16:51:13.229] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:dune_buggy
+[31ene2020 16:51:13.434] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:go_kart
+[31ene2020 16:51:13.465] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:shopping_cart
+[31ene2020 16:51:13.525] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:mini_bike
+[31ene2020 16:51:13.620] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:bumper_car
+[31ene2020 16:51:13.620] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 30.0.41, for MC 1.15.1 with MCP 20191217.105819
+[31ene2020 16:51:13.881] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:jet_ski
+[31ene2020 16:51:14.020] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v30.0.41 Initialized
+[31ene2020 16:51:14.258] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:speed_boat
+[31ene2020 16:51:14.421] [modloading-worker-2/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity cfm:seat
+[31ene2020 16:51:14.446] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:aluminum_boat
+[31ene2020 16:51:14.546] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:smart_car
+[31ene2020 16:51:14.622] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:lawn_mower
+[31ene2020 16:51:14.692] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:moped
+[31ene2020 16:51:14.731] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:sports_plane
+[31ene2020 16:51:14.786] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:golf_cart
+[31ene2020 16:51:14.851] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:off_roader
+[31ene2020 16:51:14.887] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:tractor
+[31ene2020 16:51:14.936] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:vehicle_trailer
+[31ene2020 16:51:15.034] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:storage_trailer
+[31ene2020 16:51:15.114] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:fluid_trailer
+[31ene2020 16:51:15.190] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:seeder
+[31ene2020 16:51:15.228] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:fertilizer
+[31ene2020 16:51:15.288] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:couch
+[31ene2020 16:51:15.322] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:bath
+[31ene2020 16:51:15.330] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:sofacopter
+[31ene2020 16:51:15.406] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:jack
+[31ene2020 16:51:15.609] [Server thread/INFO] [mcwbridges/]: Blocks registered.
+[31ene2020 16:51:15.700] [Server thread/INFO] [veggie_way/]: Blocks registered.
+[31ene2020 16:51:15.704] [Server thread/INFO] [easy_steel/]: Blocks registered
+[31ene2020 16:51:15.706] [Server thread/INFO] [easy_steel/]: Blocks registered.
+[31ene2020 16:51:16.139] [Server thread/INFO] [ultra_amplified_dimension/]: Blocks registered.
+[31ene2020 16:51:16.219] [Server thread/INFO] [mcwbridges/]: Items registered.
+[31ene2020 16:51:16.271] [Server thread/INFO] [veggie_way/]: Items registered.
+[31ene2020 16:51:16.456] [Server thread/INFO] [easy_steel/]: Items registered.
+[31ene2020 16:51:16.504] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:imp
+[31ene2020 16:51:16.533] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:dark_zombie
+[31ene2020 16:51:16.544] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:bloody_zombie
+[31ene2020 16:51:16.586] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:lava_slime
+[31ene2020 16:51:16.624] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:camouflage_spider
+[31ene2020 16:51:16.644] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:tribal_warrior
+[31ene2020 16:51:16.676] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:tribal_archer
+[31ene2020 16:51:16.707] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:tribal_trainee
+[31ene2020 16:51:16.749] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:netherrack_arrow
+[31ene2020 16:51:16.768] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:neridium_arrow
+[31ene2020 16:51:16.795] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:pyridium_arrow
+[31ene2020 16:51:16.841] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:linium_arrow
+[31ene2020 16:51:16.884] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:slime_eggs
+[31ene2020 16:51:16.919] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:ghast_bomb
+[31ene2020 16:51:16.924] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:nether_painting
+[31ene2020 16:51:16.947] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:lava_boat
+[31ene2020 16:51:17.131] [Server thread/INFO] [ultra_amplified_dimension/]: Items registered.
+[31ene2020 16:51:17.696] [Server thread/INFO] [ultra_amplified_dimension/]: Biomes registered.
+[31ene2020 16:51:17.827] [Server thread/INFO] [ultra_amplified_dimension/]: features registered.
+[31ene2020 16:51:17.992] [modloading-worker-0/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome minecraft:bamboo_jungle, types have been assigned on a best-effort guess: [WET, JUNGLE, HOT]
+[31ene2020 16:51:18.029] [modloading-worker-3/INFO] [easy_steel/]: Mod preinit
+[31ene2020 16:51:18.013] [modloading-worker-1/INFO] [veggie_way/]: Mod setup
+[31ene2020 16:51:18.055] [modloading-worker-3/INFO] [mcwbridges/]: Setup method registered
+[31ene2020 16:51:18.039] [modloading-worker-0/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome minecraft:bamboo_jungle_hills, types have been assigned on a best-effort guess: [WET, JUNGLE, HOT]
+[31ene2020 16:51:18.073] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks.json
+[31ene2020 16:51:18.079] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after COMMON_SETUP: 1 jobs
+[31ene2020 16:51:18.095] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.000
+[31ene2020 16:51:18.100] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[31ene2020 16:51:18.102] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[31ene2020 16:51:18.102] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
+[31ene2020 16:51:18.281] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 25.92.36.16:25565
+[31ene2020 16:51:18.290] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[31ene2020 16:51:18.303] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Found status: UP_TO_DATE Current: 1.8.3.51 Target: null
+[31ene2020 16:51:18.311] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obfuscate] Starting version check at https://raw.githubusercontent.com/MrCrayfish/Obfuscate/master/update.json
+[31ene2020 16:51:18.333] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.FileNotFoundException: https://raw.githubusercontent.com/MrCrayfish/Obfuscate/master/update.json
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_241]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_241]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_241]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:189) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:206) ~[?:?]
+	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_241]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
+Caused by: java.io.FileNotFoundException: https://raw.githubusercontent.com/MrCrayfish/Obfuscate/master/update.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_241]
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source) ~[?:1.8.0_241]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
+	... 3 more
+[31ene2020 16:51:18.339] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[31ene2020 16:51:18.362] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: UP_TO_DATE Current: 2.9.3.145 Target: null
+[31ene2020 16:51:18.369] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [nethercraft] Starting version check at https://gist.githubusercontent.com/KingPhygieBoo/1337e82a67cc45b53c1622ce30585324/raw/204456b87578d8c458178aaf78be7be99fb7a02e/nethercraft-changelog.json
+[31ene2020 16:51:18.444] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [nethercraft] Found status: UP_TO_DATE Current: 1.0.4 Target: null
+[31ene2020 16:51:18.446] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mining_helmet] Starting version check at https://gist.githubusercontent.com/KingPhygieBoo/7d572c4685438a34fc390adc35f14284/raw/d8f19bef8f6afe82e77b637d15fce388b2249cca/mining-helmet-changelog.json
+[31ene2020 16:51:18.566] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** FAILED TO BIND TO PORT!
+[31ene2020 16:51:18.567] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The exception was: java.net.BindException: Cannot assign requested address: bind
+[31ene2020 16:51:18.570] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: Perhaps a server is already running on that port?
+[31ene2020 16:51:18.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[31ene2020 16:51:18.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[31ene2020 16:51:18.591] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Exception stopping the server
+java.lang.IllegalArgumentException: Can not hotload overworld. This must be loaded at all times by main Server.
+	at org.apache.commons.lang3.Validate.isTrue(Validate.java:158) ~[server-1.15.1-extra.jar:?]
+	at net.minecraftforge.common.DimensionManager.initWorld(DimensionManager.java:229) ~[?:?]
+	at net.minecraftforge.common.DimensionManager.getWorld(DimensionManager.java:198) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_71218_a(MinecraftServer.java:995) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213211_a(MinecraftServer.java:533) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_71260_j(MinecraftServer.java:565) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71260_j(DedicatedServer.java:544) ~[?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:673) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[31ene2020 16:51:18.636] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mining_helmet] Found status: UP_TO_DATE Current: 1.0.2 Target: null
+[31ene2020 16:51:18.636] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cfm/update.json
+[31ene2020 16:51:18.678] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre16 Target: null
+[31ene2020 16:51:18.678] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travellersboots] Starting version check at http:/myurl.me/
+[31ene2020 16:51:18.679] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.RuntimeException: java.lang.IllegalArgumentException: protocol = http host = null
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.getHeaderField(Unknown Source) ~[?:1.8.0_241]
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source) ~[?:1.8.0_241]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:206) ~[?:?]
+	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_241]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
+Caused by: java.lang.IllegalArgumentException: protocol = http host = null
+	at sun.net.spi.DefaultProxySelector.select(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_241]
+	... 5 more
+[31ene2020 16:51:18.680] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vehicle] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/vehicle/update.json
+[31ene2020 16:51:18.692] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.FileNotFoundException: https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/vehicle/update.json
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_241]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_241]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_241]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:189) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:206) ~[?:?]
+	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_241]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
+Caused by: java.io.FileNotFoundException: https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/vehicle/update.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_241]
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source) ~[?:1.8.0_241]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
+	... 3 more
+[31ene2020 16:51:18.692] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [xlfoodmod] Starting version check at https://raw.githubusercontent.com/mariot7/XL-Food-Mod/1.15/update.json
+[31ene2020 16:51:18.731] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [xlfoodmod] Found status: UP_TO_DATE Current: 2.2.1 Target: null
+[31ene2020 16:51:18.731] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[31ene2020 16:51:19.191] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 30.0.41 Target: 30.0.51
+[31ene2020 16:51:19.192] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Starting version check at http://maxhenkel.de/update/reap.json
+[31ene2020 16:51:19.637] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Found status: UP_TO_DATE Current: 1.11.1 Target: null

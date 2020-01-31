@@ -1,0 +1,75 @@
+---- Minecraft Crash Report ----
+// Would you like a cupcake?
+
+Time: 24/1/20 20:51
+Description: Exception in server tick loop
+
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Mod File jei-1.15.2-6.0.0.2.jar needs language provider javafml:31 or above to load
+§7We have found 30.0
+]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:168) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) ~[?:?] {re:classloading}
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:121) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:610) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at java.lang.Thread.run(Thread.java:834) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.15.1
+	Minecraft Version ID: 1.15.1
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 11, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1173288448 bytes (1118 MB) / 1778384896 bytes (1696 MB) up to 4286578688 bytes (4088 MB)
+	CPUs: 4
+	JVM Flags: 0 total; 
+	ModLauncher: 5.0.0-milestone.4+67+b1a340b
+	ModLauncher launch target: fmlserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/eventbus-2.0.0-milestone.1-service.jar eventbus PLUGINSERVICE 
+		/server.jar.jar object_holder_definalize PLUGINSERVICE 
+		/server.jar.jar runtime_enum_extender PLUGINSERVICE 
+		/server.jar.jar capability_inject_definalize PLUGINSERVICE 
+		/accesstransformers-2.0.0-milestone.1-shadowed.jar accesstransformer PLUGINSERVICE 
+		/server.jar.jar runtimedistcleaner PLUGINSERVICE 
+		/server.jar.jar fml TRANSFORMATIONSERVICE 
+	FML: 30.0
+	Forge: net.minecraftforge:30.0.41
+	FML Language Providers: 
+		javafml@30.0
+		minecraft@1
+	Mod List: 
+		EasySteel-1.15.1-1.1.9.jar Easy Steel & More {easy_steel@1.1.9 NONE}
+		ExpOreMod-1.15.1-1.1.jar Exp Ore Block {exp_ore@1.1 NONE}
+		ferroustry-2.1.jar Ferroustry {ferroustry@2.1 NONE}
+		furniture-7.0.0-pre16-1.15.1.jar MrCrayfish's Furniture Mod {cfm@7.0.0-pre16 NONE}
+		jei-1.15.2-6.0.0.2.jar Just Enough Items {jei@6.0.0.2 NONE}
+		mcw-bridges-1.0.3-mc1.15.1.jar Macaw's Bridges {mcwbridges@1.0.3 NONE}
+		mining-helmet-1.15.1-1.0.2.jar Mining Helmet {mining_helmet@1.0.2 NONE}
+		nethercraft-1.15.1-1.0.4.jar Nethercraft {nethercraft@1.0.4 NONE}
+		obfuscate-0.3.4-1.15.1.jar Obfuscate {obfuscate@0.3.4 NONE}
+		OreExcavation-1.7.148.jar Ore Excavation {oreexcavation@NONE NONE}
+		portality-1.15.1-2.1.1-602aec8.jar Portality {portality@2.1.1 NONE}
+		reap-1.11.1.jar Reap Mod {reap@1.11.1 NONE}
+		TheVeggieWay-1.15.1-2.1.7.jar The Veggie Way {veggie_way@2.1.7 NONE}
+		titanium-1.15.1-2.3.2.jar Titanium {titanium@2.3.2 NONE}
+		travellersboots-1.15.1-1.3.1.jar Traveller's Boots {travellersboots@1.3.1 NONE}
+		u_team_core-1.15.1-2.9.3.145.jar U Team Core {uteamcore@2.9.3.145 NONE}
+		ultra_amplified_dimension-1.15.1-7.1.0.jar Ultra Amplified Dimension {ultra_amplified_dimension@1.15.1-7.1.0 NONE}
+		useful_backpacks-1.15.1-1.8.3.51.jar Useful Backpacks {usefulbackpacks@1.8.3.51 NONE}
+		valhelsia_structures-1.15.1-0.0.1.jar Valhelsia Structures {valhelsia_structures@1.15.1-0.0.1 NONE}
+		vehicle-mod-0.42.4-1.15.1.jar MrCrayfish's Vehicle Mod {vehicle@0.42.4 NONE}
+		Waddles-1.15.1-0.8.4.jar Waddles {waddles@1.15.1-0.8.4 NONE}
+		WallpaperCraft-1.15.1-1.1.0.jar Wallpapercraft {wallpapercraft@1.1.0 NONE}
+		XL-Food-Mod-1.15.1-2.2.1.jar XL Food Mod {xlfoodmod@2.2.1 NONE}
+		forge-1.15.1-30.0.41-universal.jar Forge {forge@30.0.41 NONE}
+		forge-1.15.1-30.0.41-server.jar Minecraft {minecraft@1.15.1 NONE}
+	Data Packs: 
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)

@@ -1,0 +1,76 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 18/01/20 1:57
+Description: Exception in server tick loop
+
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Animalium (animalium) encountered an error during the common_setup event phase
+§7net/minecraft/client/renderer/tileentity/ItemStackTileEntityRenderer
+]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:201) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.ModLoader.loadMods(ModLoader.java:154) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:46) ~[?:?] {re:classloading}
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:121) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:610) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.15.1
+	Minecraft Version ID: 1.15.1
+	Operating System: Windows 10 (x86) version 10.0
+	Java Version: 1.8.0_221, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode, sharing), Oracle Corporation
+	Memory: 87462128 bytes (83 MB) / 259522560 bytes (247 MB) up to 259522560 bytes (247 MB)
+	CPUs: 4
+	JVM Flags: 0 total; 
+	ModLauncher: 5.0.0-milestone.4+67+b1a340b
+	ModLauncher launch target: fmlserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/eventbus-2.0.0-milestone.1-service.jar eventbus PLUGINSERVICE 
+		/forge-1.15.1-30.0.41.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.15.1-30.0.41.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-2.0.0-milestone.1-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge-1.15.1-30.0.41.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.15.1-30.0.41.jar runtimedistcleaner PLUGINSERVICE 
+		/forge-1.15.1-30.0.41.jar fml TRANSFORMATIONSERVICE 
+	FML: 30.0
+	Forge: net.minecraftforge:30.0.41
+	FML Language Providers: 
+		javafml@30.0
+		minecraft@1
+	Mod List: 
+		forge-1.15.1-30.0.41-server.jar Minecraft {minecraft@1.15.1 SIDED_SETUP}
+		mcw-bridges-1.0.3-mc1.15.1.jar Macaw's Bridges {mcwbridges@1.0.3 SIDED_SETUP}
+		useful_backpacks-1.15.1-1.8.3.51.jar Useful Backpacks {usefulbackpacks@1.8.3.51 SIDED_SETUP}
+		Animalium-0.5.1.jar Animalium {animalium@0.5.1 ERROR}
+		obfuscate-0.3.4-1.15.1.jar Obfuscate {obfuscate@0.3.4 SIDED_SETUP}
+		titanium-1.15.1-2.3.2.jar Titanium {titanium@2.3.2 SIDED_SETUP}
+		TheVeggieWay-1.15.1-2.1.7.jar The Veggie Way {veggie_way@2.1.7 SIDED_SETUP}
+		EasySteel-1.15.1-1.1.9.jar Easy Steel & More {easy_steel@1.1.9 SIDED_SETUP}
+		u_team_core-1.15.1-2.9.3.145.jar U Team Core {uteamcore@2.9.3.145 SIDED_SETUP}
+		nethercraft-1.15.1-1.0.4.jar Nethercraft {nethercraft@1.0.4 SIDED_SETUP}
+		mining-helmet-1.15.1-1.0.2.jar Mining Helmet {mining_helmet@1.0.2 SIDED_SETUP}
+		valhelsia_structures-1.15.1-0.0.1.jar Valhelsia Structures {valhelsia_structures@1.15.1-0.0.1 SIDED_SETUP}
+		Waddles-1.15.1-0.8.4.jar Waddles {waddles@1.15.1-0.8.4 SIDED_SETUP}
+		furniture-7.0.0-pre16-1.15.1.jar MrCrayfish's Furniture Mod {cfm@7.0.0-pre16 SIDED_SETUP}
+		travellersboots-1.15.1-1.3.1.jar Traveller's Boots {travellersboots@1.3.1 SIDED_SETUP}
+		vehicle-mod-0.42.4-1.15.1.jar MrCrayfish's Vehicle Mod {vehicle@0.42.4 SIDED_SETUP}
+		ferroustry-2.1.jar Ferroustry {ferroustry@2.1 SIDED_SETUP}
+		ExpOreMod-1.15.1-1.1.jar Exp Ore Block {exp_ore@1.1 SIDED_SETUP}
+		XL-Food-Mod-1.15.1-2.2.1.jar XL Food Mod {xlfoodmod@2.2.1 SIDED_SETUP}
+		forge-1.15.1-30.0.41-universal.jar Forge {forge@30.0.41 SIDED_SETUP}
+		reap-1.11.1.jar Reap Mod {reap@1.11.1 SIDED_SETUP}
+		portality-1.15.1-2.1.1-602aec8.jar Portality {portality@2.1.1 SIDED_SETUP}
+		ultra_amplified_dimension-1.15.1-7.1.0.jar Ultra Amplified Dimension {ultra_amplified_dimension@1.15.1-7.1.0 SIDED_SETUP}
+		WallpaperCraft-1.15.1-1.1.0.jar Wallpapercraft {wallpapercraft@1.1.0 SIDED_SETUP}
+		OreExcavation-1.7.148.jar Ore Excavation {oreexcavation@NONE SIDED_SETUP}
+	Data Packs: 
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)
