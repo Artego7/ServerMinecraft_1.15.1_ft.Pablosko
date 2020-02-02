@@ -419,6 +419,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2020-02-02 02:45:49 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2020-01-24 21:07:35 +0100"
@@ -551,6 +557,12 @@
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
       "has_log": "2020-01-24 20:47:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2020-02-02 02:20:43 +0100"
     },
     "done": true
   },
@@ -1158,6 +1170,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2020-02-02 02:45:49 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_cod_from_smoking": {
     "criteria": {
       "has_cod": "2020-01-24 21:37:57 +0100"
@@ -1230,6 +1248,12 @@
     },
     "done": true
   },
+  "usefulbackpacks:recipes/backpack_large": {
+    "criteria": {
+      "has_medium_backpack": "2020-02-02 02:17:58 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_wool": {
     "criteria": {
       "has_white_wool": "2020-01-25 19:56:34 +0100"
@@ -1269,6 +1293,12 @@
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2020-01-25 19:56:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2020-02-02 02:45:49 +0100"
     },
     "done": true
   },
@@ -1341,6 +1371,12 @@
   "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
       "has_iron_ingot": "2020-01-24 21:03:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_the_recipe": "2020-02-02 02:43:47 +0100"
     },
     "done": true
   },
@@ -1453,6 +1489,7 @@
       "sweet_berries": "2020-01-25 19:52:36 +0100",
       "apple": "2020-01-24 21:03:03 +0100",
       "cooked_cod": "2020-01-24 21:43:34 +0100",
+      "bread": "2020-02-02 02:13:43 +0100",
       "rotten_flesh": "2020-01-31 22:56:45 +0100",
       "dried_kelp": "2020-01-24 21:44:13 +0100",
       "cooked_rabbit": "2020-01-25 20:10:50 +0100",
@@ -1912,6 +1949,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2020-02-02 02:25:34 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/birch_fence": {
     "criteria": {
       "has_planks": "2020-01-24 21:00:00 +0100"
@@ -2290,6 +2333,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2020-02-02 02:25:34 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2020-01-24 21:03:19 +0100"
@@ -2377,6 +2426,12 @@
   "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_light_gray_dye": "2020-01-26 22:43:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_the_recipe": "2020-02-02 02:43:40 +0100"
     },
     "done": true
   },
