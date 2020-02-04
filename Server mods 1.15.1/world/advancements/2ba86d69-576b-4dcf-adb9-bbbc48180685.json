@@ -155,6 +155,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2020-02-03 16:26:28 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_oak_slab": {
     "criteria": {
       "has_planks": "2020-01-31 22:26:10 +0100"
@@ -493,6 +499,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2020-02-03 16:46:30 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2020-01-24 21:40:18 +0100"
@@ -632,6 +644,7 @@
       "minecraft:wither_skeleton": "2020-02-02 17:59:14 +0100",
       "minecraft:stray": "2020-01-31 17:41:50 +0100",
       "minecraft:enderman": "2020-01-31 23:49:12 +0100",
+      "minecraft:silverfish": "2020-02-03 17:01:23 +0100",
       "minecraft:zombie": "2020-01-24 21:41:42 +0100",
       "minecraft:drowned": "2020-01-26 23:18:10 +0100"
     },
@@ -640,6 +653,12 @@
   "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2020-01-31 23:13:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2020-02-03 16:27:43 +0100"
     },
     "done": true
   },
@@ -793,9 +812,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal_from_blasting": {
+    "criteria": {
+      "has_coal_ore": "2020-02-03 16:47:45 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
       "has_gold_block": "2020-02-01 00:38:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2020-02-03 16:44:39 +0100"
     },
     "done": true
   },
@@ -1261,6 +1292,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2020-02-03 16:27:43 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stonecutter": {
     "criteria": {
       "has_stone": "2020-01-26 21:52:27 +0100"
@@ -1292,6 +1329,7 @@
       "minecraft:jungle_hills": "2020-02-02 03:28:01 +0100",
       "minecraft:snowy_beach": "2020-01-24 21:39:36 +0100",
       "minecraft:bamboo_jungle": "2020-02-02 03:25:27 +0100",
+      "minecraft:deep_lukewarm_ocean": "2020-02-03 16:42:58 +0100",
       "minecraft:beach": "2020-01-24 21:27:16 +0100",
       "minecraft:river": "2020-01-24 21:34:30 +0100",
       "minecraft:snowy_taiga": "2020-02-02 03:03:34 +0100",
@@ -1613,6 +1651,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2020-02-03 16:27:43 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
     "criteria": {
       "has_white_flower": "2020-02-02 03:22:41 +0100"
@@ -1847,6 +1891,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2020-02-03 17:33:29 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2020-01-24 21:34:25 +0100"
@@ -1913,9 +1963,12 @@
       "cooked_mutton": "2020-01-26 23:36:26 +0100",
       "cooked_beef": "2020-01-24 22:08:03 +0100",
       "apple": "2020-01-24 21:44:05 +0100",
+      "bread": "2020-02-03 17:06:13 +0100",
       "dried_kelp": "2020-01-24 21:45:14 +0100",
       "cooked_rabbit": "2020-01-26 22:12:22 +0100",
-      "cooked_chicken": "2020-01-31 21:30:28 +0100"
+      "cooked_chicken": "2020-01-31 21:30:28 +0100",
+      "cooked_salmon": "2020-02-03 17:13:12 +0100",
+      "carrot": "2020-02-03 18:14:27 +0100"
     },
     "done": false
   },
@@ -2385,9 +2438,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2020-02-03 16:27:53 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-01-26 21:53:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2020-02-03 17:34:25 +0100"
     },
     "done": true
   },
@@ -2406,6 +2471,12 @@
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2020-01-24 22:25:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2020-02-03 16:27:53 +0100"
     },
     "done": true
   },
@@ -2760,6 +2831,12 @@
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2020-01-24 22:01:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting": {
+    "criteria": {
+      "has_coal_ore": "2020-02-03 16:47:45 +0100"
     },
     "done": true
   },

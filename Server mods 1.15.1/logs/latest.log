@@ -1,185 +1,185 @@
-[02feb2020 16:36:33.716] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 30.0.41, --fml.mcpVersion, 20191217.105819, --fml.mcVersion, 1.15.1, --fml.forgeGroup, net.minecraftforge]
-[02feb2020 16:36:33.752] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_241 by Oracle Corporation
-[02feb2020 16:36:38.653] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[02feb2020 16:36:43.412] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
-[02feb2020 16:37:01.143] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[02feb2020 16:37:01.167] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[02feb2020 16:37:01.193] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[02feb2020 16:37:01.314] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[02feb2020 16:37:01.364] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[02feb2020 16:37:10.035] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.1
-[02feb2020 16:37:12.203] [modloading-worker-3/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity waddles:adelie_penguin
-[02feb2020 16:37:13.015] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 30.0.41, for MC 1.15.1 with MCP 20191217.105819
-[02feb2020 16:37:13.015] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v30.0.41 Initialized
-[02feb2020 16:37:13.449] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:atv
-[02feb2020 16:37:13.480] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:dune_buggy
-[02feb2020 16:37:13.525] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:go_kart
-[02feb2020 16:37:13.534] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:shopping_cart
-[02feb2020 16:37:13.539] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:mini_bike
-[02feb2020 16:37:13.547] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:bumper_car
-[02feb2020 16:37:13.553] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:jet_ski
-[02feb2020 16:37:13.555] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:speed_boat
-[02feb2020 16:37:13.560] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:aluminum_boat
-[02feb2020 16:37:13.564] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:smart_car
-[02feb2020 16:37:13.576] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:lawn_mower
-[02feb2020 16:37:13.609] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:moped
-[02feb2020 16:37:13.617] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:sports_plane
-[02feb2020 16:37:13.646] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:golf_cart
-[02feb2020 16:37:13.690] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:off_roader
-[02feb2020 16:37:13.703] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:tractor
-[02feb2020 16:37:13.767] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:vehicle_trailer
-[02feb2020 16:37:13.795] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:storage_trailer
-[02feb2020 16:37:14.226] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:fluid_trailer
-[02feb2020 16:37:14.270] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:seeder
-[02feb2020 16:37:14.352] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:fertilizer
-[02feb2020 16:37:14.364] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:couch
-[02feb2020 16:37:14.378] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:bath
-[02feb2020 16:37:14.463] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:sofacopter
-[02feb2020 16:37:14.582] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:jack
-[02feb2020 16:37:14.586] [modloading-worker-2/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity cfm:seat
-[02feb2020 16:37:15.362] [Server thread/INFO] [mcwbridges/]: Blocks registered.
-[02feb2020 16:37:15.385] [Server thread/INFO] [veggie_way/]: Blocks registered.
-[02feb2020 16:37:15.393] [Server thread/INFO] [easy_steel/]: Blocks registered
-[02feb2020 16:37:15.401] [Server thread/INFO] [easy_steel/]: Blocks registered.
-[02feb2020 16:37:15.683] [Server thread/INFO] [ultra_amplified_dimension/]: Blocks registered.
-[02feb2020 16:37:15.746] [Server thread/INFO] [mcwbridges/]: Items registered.
-[02feb2020 16:37:15.806] [Server thread/INFO] [veggie_way/]: Items registered.
-[02feb2020 16:37:15.880] [Server thread/INFO] [easy_steel/]: Items registered.
-[02feb2020 16:37:15.889] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:imp
-[02feb2020 16:37:15.893] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:dark_zombie
-[02feb2020 16:37:15.895] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:bloody_zombie
-[02feb2020 16:37:15.901] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:lava_slime
-[02feb2020 16:37:15.903] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:camouflage_spider
-[02feb2020 16:37:15.911] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:tribal_warrior
-[02feb2020 16:37:15.916] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:tribal_archer
-[02feb2020 16:37:15.918] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:tribal_trainee
-[02feb2020 16:37:15.921] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:netherrack_arrow
-[02feb2020 16:37:15.930] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:neridium_arrow
-[02feb2020 16:37:15.933] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:pyridium_arrow
-[02feb2020 16:37:15.945] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:linium_arrow
-[02feb2020 16:37:15.967] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:slime_eggs
-[02feb2020 16:37:15.968] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:ghast_bomb
-[02feb2020 16:37:15.973] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:nether_painting
-[02feb2020 16:37:15.998] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:lava_boat
-[02feb2020 16:37:16.094] [Server thread/INFO] [ultra_amplified_dimension/]: Items registered.
-[02feb2020 16:37:16.672] [Server thread/INFO] [ultra_amplified_dimension/]: Biomes registered.
-[02feb2020 16:37:16.872] [Server thread/INFO] [ultra_amplified_dimension/]: features registered.
-[02feb2020 16:37:17.172] [modloading-worker-2/INFO] [veggie_way/]: Mod setup
-[02feb2020 16:37:17.178] [modloading-worker-2/INFO] [mcwbridges/]: Setup method registered
-[02feb2020 16:37:17.286] [modloading-worker-0/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome minecraft:bamboo_jungle, types have been assigned on a best-effort guess: [JUNGLE, HOT, WET]
-[02feb2020 16:37:17.313] [modloading-worker-3/INFO] [easy_steel/]: Mod preinit
-[02feb2020 16:37:17.388] [modloading-worker-0/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome minecraft:bamboo_jungle_hills, types have been assigned on a best-effort guess: [JUNGLE, HOT, WET]
-[02feb2020 16:37:17.397] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after COMMON_SETUP: 1 jobs
-[02feb2020 16:37:17.398] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks.json
-[02feb2020 16:37:17.423] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.020
-[02feb2020 16:37:17.426] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[02feb2020 16:37:17.428] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[02feb2020 16:37:17.428] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
-[02feb2020 16:37:17.590] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 25.92.90.138:25565
-[02feb2020 16:37:17.672] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Found status: UP_TO_DATE Current: 1.8.3.51 Target: null
-[02feb2020 16:37:17.675] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obfuscate] Starting version check at https://raw.githubusercontent.com/MrCrayfish/Obfuscate/master/update.json
-[02feb2020 16:37:17.701] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
-[02feb2020 16:37:17.699] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[03feb2020 21:03:33.794] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 30.0.41, --fml.mcpVersion, 20191217.105819, --fml.mcVersion, 1.15.1, --fml.forgeGroup, net.minecraftforge]
+[03feb2020 21:03:33.798] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_221 by Oracle Corporation
+[03feb2020 21:03:34.150] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[03feb2020 21:03:35.032] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[03feb2020 21:03:43.158] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03feb2020 21:03:43.180] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03feb2020 21:03:43.207] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03feb2020 21:03:43.247] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03feb2020 21:03:43.283] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03feb2020 21:03:44.398] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.1
+[03feb2020 21:03:45.504] [modloading-worker-5/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity waddles:adelie_penguin
+[03feb2020 21:03:45.709] [modloading-worker-5/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 30.0.41, for MC 1.15.1 with MCP 20191217.105819
+[03feb2020 21:03:45.785] [modloading-worker-5/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v30.0.41 Initialized
+[03feb2020 21:03:46.323] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:atv
+[03feb2020 21:03:46.415] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:dune_buggy
+[03feb2020 21:03:46.420] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:go_kart
+[03feb2020 21:03:46.427] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:shopping_cart
+[03feb2020 21:03:46.496] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:mini_bike
+[03feb2020 21:03:46.561] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:bumper_car
+[03feb2020 21:03:46.638] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:jet_ski
+[03feb2020 21:03:46.656] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:speed_boat
+[03feb2020 21:03:46.660] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:aluminum_boat
+[03feb2020 21:03:46.688] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:smart_car
+[03feb2020 21:03:46.698] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:lawn_mower
+[03feb2020 21:03:46.764] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:moped
+[03feb2020 21:03:46.804] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:sports_plane
+[03feb2020 21:03:46.889] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:golf_cart
+[03feb2020 21:03:46.971] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:off_roader
+[03feb2020 21:03:47.007] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:tractor
+[03feb2020 21:03:47.095] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:vehicle_trailer
+[03feb2020 21:03:47.158] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:storage_trailer
+[03feb2020 21:03:47.210] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:fluid_trailer
+[03feb2020 21:03:47.259] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:seeder
+[03feb2020 21:03:47.365] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:fertilizer
+[03feb2020 21:03:47.386] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:couch
+[03feb2020 21:03:47.401] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:bath
+[03feb2020 21:03:47.405] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:sofacopter
+[03feb2020 21:03:47.408] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vehicle:jack
+[03feb2020 21:03:47.643] [modloading-worker-0/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity cfm:seat
+[03feb2020 21:03:47.691] [Server thread/INFO] [mcwbridges/]: Blocks registered.
+[03feb2020 21:03:47.692] [Server thread/INFO] [easy_steel/]: Blocks registered
+[03feb2020 21:03:47.694] [Server thread/INFO] [easy_steel/]: Blocks registered.
+[03feb2020 21:03:47.837] [Server thread/INFO] [veggie_way/]: Blocks registered.
+[03feb2020 21:03:47.938] [Server thread/INFO] [ultra_amplified_dimension/]: Blocks registered.
+[03feb2020 21:03:47.942] [Server thread/INFO] [mcwbridges/]: Items registered.
+[03feb2020 21:03:48.001] [Server thread/INFO] [easy_steel/]: Items registered.
+[03feb2020 21:03:48.012] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:imp
+[03feb2020 21:03:48.013] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:dark_zombie
+[03feb2020 21:03:48.016] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:bloody_zombie
+[03feb2020 21:03:48.018] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:lava_slime
+[03feb2020 21:03:48.020] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:camouflage_spider
+[03feb2020 21:03:48.025] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:tribal_warrior
+[03feb2020 21:03:48.028] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:tribal_archer
+[03feb2020 21:03:48.030] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:tribal_trainee
+[03feb2020 21:03:48.033] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:netherrack_arrow
+[03feb2020 21:03:48.035] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:neridium_arrow
+[03feb2020 21:03:48.036] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:pyridium_arrow
+[03feb2020 21:03:48.038] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:linium_arrow
+[03feb2020 21:03:48.055] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:slime_eggs
+[03feb2020 21:03:48.057] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:ghast_bomb
+[03feb2020 21:03:48.059] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:nether_painting
+[03feb2020 21:03:48.081] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nethercraft:lava_boat
+[03feb2020 21:03:48.151] [Server thread/INFO] [veggie_way/]: Items registered.
+[03feb2020 21:03:48.218] [Server thread/INFO] [ultra_amplified_dimension/]: Items registered.
+[03feb2020 21:03:48.560] [Server thread/INFO] [ultra_amplified_dimension/]: Biomes registered.
+[03feb2020 21:03:48.664] [Server thread/INFO] [ultra_amplified_dimension/]: features registered.
+[03feb2020 21:03:48.973] [modloading-worker-6/INFO] [veggie_way/]: Mod setup
+[03feb2020 21:03:48.975] [modloading-worker-6/INFO] [mcwbridges/]: Setup method registered
+[03feb2020 21:03:48.979] [modloading-worker-2/INFO] [easy_steel/]: Mod preinit
+[03feb2020 21:03:48.999] [modloading-worker-3/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome minecraft:bamboo_jungle, types have been assigned on a best-effort guess: [WET, JUNGLE, HOT]
+[03feb2020 21:03:48.999] [modloading-worker-3/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome minecraft:bamboo_jungle_hills, types have been assigned on a best-effort guess: [WET, JUNGLE, HOT]
+[03feb2020 21:03:49.058] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after COMMON_SETUP: 1 jobs
+[03feb2020 21:03:49.059] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks.json
+[03feb2020 21:03:49.061] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.000
+[03feb2020 21:03:49.064] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[03feb2020 21:03:49.065] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[03feb2020 21:03:49.065] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
+[03feb2020 21:03:49.140] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 25.92.36.16:25565
+[03feb2020 21:03:49.144] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[03feb2020 21:03:49.152] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Found status: UP_TO_DATE Current: 1.8.3.51 Target: null
+[03feb2020 21:03:49.153] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [nethercraft] Starting version check at https://gist.githubusercontent.com/KingPhygieBoo/1337e82a67cc45b53c1622ce30585324/raw/204456b87578d8c458178aaf78be7be99fb7a02e/nethercraft-changelog.json
+[03feb2020 21:03:49.224] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [nethercraft] Found status: UP_TO_DATE Current: 1.0.4 Target: null
+[03feb2020 21:03:49.225] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mining_helmet] Starting version check at https://gist.githubusercontent.com/KingPhygieBoo/7d572c4685438a34fc390adc35f14284/raw/d8f19bef8f6afe82e77b637d15fce388b2249cca/mining-helmet-changelog.json
+[03feb2020 21:03:49.401] [modloading-worker-3/INFO] [easy_steel/]: Hello world from EasySteel
+[03feb2020 21:03:49.401] [modloading-worker-1/INFO] [veggie_way/]: Hello world from VeggieWay
+[03feb2020 21:03:49.402] [modloading-worker-1/INFO] [veggie_way/]: Got IMC [Hello world]
+[03feb2020 21:03:49.401] [modloading-worker-3/INFO] [easy_steel/]: Got IMC [Hello world]
+[03feb2020 21:03:49.409] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mining_helmet] Found status: UP_TO_DATE Current: 1.0.2 Target: null
+[03feb2020 21:03:49.410] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Starting version check at http://maxhenkel.de/update/reap.json
+[03feb2020 21:03:49.860] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Found status: UP_TO_DATE Current: 1.11.1 Target: null
+[03feb2020 21:03:49.860] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obfuscate] Starting version check at https://raw.githubusercontent.com/MrCrayfish/Obfuscate/master/update.json
+[03feb2020 21:03:49.875] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.io.FileNotFoundException: https://raw.githubusercontent.com/MrCrayfish/Obfuscate/master/update.json
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_241]
-	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_241]
-	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_241]
-	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_241]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_221]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_221]
 	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:189) ~[?:?]
 	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:206) ~[?:?]
-	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_241]
+	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_221]
 	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
 Caused by: java.io.FileNotFoundException: https://raw.githubusercontent.com/MrCrayfish/Obfuscate/master/update.json
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_241]
-	at java.net.HttpURLConnection.getResponseCode(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_221]
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source) ~[?:1.8.0_221]
 	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
 	... 3 more
-[02feb2020 16:37:17.735] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
-[02feb2020 16:37:17.755] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: UP_TO_DATE Current: 2.9.3.145 Target: null
-[02feb2020 16:37:17.760] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [nethercraft] Starting version check at https://gist.githubusercontent.com/KingPhygieBoo/1337e82a67cc45b53c1622ce30585324/raw/204456b87578d8c458178aaf78be7be99fb7a02e/nethercraft-changelog.json
-[02feb2020 16:37:17.827] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [nethercraft] Found status: UP_TO_DATE Current: 1.0.4 Target: null
-[02feb2020 16:37:17.837] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mining_helmet] Starting version check at https://gist.githubusercontent.com/KingPhygieBoo/7d572c4685438a34fc390adc35f14284/raw/d8f19bef8f6afe82e77b637d15fce388b2249cca/mining-helmet-changelog.json
-[02feb2020 16:37:17.855] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mining_helmet] Found status: UP_TO_DATE Current: 1.0.2 Target: null
-[02feb2020 16:37:17.856] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cfm/update.json
-[02feb2020 16:37:17.897] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre16 Target: null
-[02feb2020 16:37:17.897] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travellersboots] Starting version check at http:/myurl.me/
-[02feb2020 16:37:17.898] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.lang.RuntimeException: java.lang.IllegalArgumentException: protocol = http host = null
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.http.HttpURLConnection.getHeaderField(Unknown Source) ~[?:1.8.0_241]
-	at java.net.HttpURLConnection.getResponseCode(Unknown Source) ~[?:1.8.0_241]
-	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:206) ~[?:?]
-	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_241]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
-Caused by: java.lang.IllegalArgumentException: protocol = http host = null
-	at sun.net.spi.DefaultProxySelector.select(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_241]
-	... 5 more
-[02feb2020 16:37:17.899] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vehicle] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/vehicle/update.json
-[02feb2020 16:37:17.910] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[03feb2020 21:03:49.881] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vehicle] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/vehicle/update.json
+[03feb2020 21:03:50.069] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.io.FileNotFoundException: https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/vehicle/update.json
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_241]
-	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_241]
-	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_241]
-	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_241]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_221]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_221]
 	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:189) ~[?:?]
 	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:206) ~[?:?]
-	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_241]
+	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_221]
 	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
 Caused by: java.io.FileNotFoundException: https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/vehicle/update.json
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_241]
-	at java.net.HttpURLConnection.getResponseCode(Unknown Source) ~[?:1.8.0_241]
-	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_221]
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source) ~[?:1.8.0_221]
 	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
 	... 3 more
-[02feb2020 16:37:17.911] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [xlfoodmod] Starting version check at https://raw.githubusercontent.com/mariot7/XL-Food-Mod/1.15/update.json
-[02feb2020 16:37:17.982] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [xlfoodmod] Found status: UP_TO_DATE Current: 2.2.1 Target: null
-[02feb2020 16:37:17.982] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[02feb2020 16:37:18.355] [modloading-worker-3/INFO] [veggie_way/]: Hello world from VeggieWay
-[02feb2020 16:37:18.355] [modloading-worker-2/INFO] [easy_steel/]: Hello world from EasySteel
-[02feb2020 16:37:18.356] [modloading-worker-2/INFO] [easy_steel/]: Got IMC [Hello world]
-[02feb2020 16:37:18.356] [modloading-worker-3/INFO] [veggie_way/]: Got IMC [Hello world]
-[02feb2020 16:37:18.426] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 30.0.41 Target: 30.0.51
-[02feb2020 16:37:18.429] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Starting version check at http://maxhenkel.de/update/reap.json
-[02feb2020 16:37:19.169] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Found status: UP_TO_DATE Current: 1.11.1 Target: null
-[02feb2020 16:37:20.739] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\ultra_amplified_dimension-server.toml is not correct. Correcting
-[02feb2020 16:37:20.858] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[02feb2020 16:37:21.026] [Server thread/INFO] [net.minecraftforge.common.DimensionManager/DIMS]: Registered dimension ultra_amplified_dimension:ultraamplified of type ultra_amplified_dimension:ultraamplified and id 3
-[02feb2020 16:37:21.731] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, furniture-7.0.0-pre16-1.15.1.jar, EasySteel-1.15.1-1.1.9.jar, ferroustry-2.1.jar, forge-1.15.1-30.0.41-universal.jar, jei-1.15.1-6.0.0.1.jar, mcw-bridges-1.0.3-mc1.15.1.jar, mining-helmet-1.15.1-1.0.2.jar, nethercraft-1.15.1-1.0.4.jar, obfuscate-0.3.4-1.15.1.jar, OreExcavation-1.7.148.jar, portality-1.15.1-2.1.1-602aec8.jar, reap-1.11.1.jar, titanium-1.15.1-2.3.2.jar, travellersboots-1.15.1-1.3.1.jar, ultra_amplified_dimension-1.15.1-7.1.0.jar, useful_backpacks-1.15.1-1.8.3.51.jar, u_team_core-1.15.1-2.9.3.145.jar, valhelsia_structures-1.15.1-0.0.1.jar, TheVeggieWay-1.15.1-2.1.7.jar, vehicle-mod-0.42.4-1.15.1.jar, Waddles-1.15.1-0.8.4.jar, WallpaperCraft-1.15.1-1.1.0.jar, XL-Food-Mod-1.15.1-2.2.1.jar
-[02feb2020 16:37:22.832] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe titanium:test_serializer/saplings_to_sticks
+[03feb2020 21:03:50.070] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[03feb2020 21:03:50.091] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: UP_TO_DATE Current: 2.9.3.145 Target: null
+[03feb2020 21:03:50.092] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cfm/update.json
+[03feb2020 21:03:50.165] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre16 Target: null
+[03feb2020 21:03:50.165] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travellersboots] Starting version check at http:/myurl.me/
+[03feb2020 21:03:50.167] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.RuntimeException: java.lang.IllegalArgumentException: protocol = http host = null
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getHeaderField(Unknown Source) ~[?:1.8.0_221]
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source) ~[?:1.8.0_221]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:206) ~[?:?]
+	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_221]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
+Caused by: java.lang.IllegalArgumentException: protocol = http host = null
+	at sun.net.spi.DefaultProxySelector.select(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_221]
+	... 5 more
+[03feb2020 21:03:50.167] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [xlfoodmod] Starting version check at https://raw.githubusercontent.com/mariot7/XL-Food-Mod/1.15/update.json
+[03feb2020 21:03:50.192] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [xlfoodmod] Found status: UP_TO_DATE Current: 2.2.1 Target: null
+[03feb2020 21:03:50.193] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[03feb2020 21:03:50.527] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\ultra_amplified_dimension-server.toml is not correct. Correcting
+[03feb2020 21:03:50.563] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[03feb2020 21:03:50.609] [Server thread/INFO] [net.minecraftforge.common.DimensionManager/DIMS]: Registered dimension ultra_amplified_dimension:ultraamplified of type ultra_amplified_dimension:ultraamplified and id 3
+[03feb2020 21:03:50.657] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 30.0.41 Target: 30.0.51
+[03feb2020 21:03:51.148] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, furniture-7.0.0-pre16-1.15.1.jar, EasySteel-1.15.1-1.1.9.jar, ferroustry-2.1.jar, forge-1.15.1-30.0.41-universal.jar, jei-1.15.1-6.0.0.1.jar, mcw-bridges-1.0.3-mc1.15.1.jar, mining-helmet-1.15.1-1.0.2.jar, nethercraft-1.15.1-1.0.4.jar, obfuscate-0.3.4-1.15.1.jar, OreExcavation-1.7.148.jar, portality-1.15.1-2.1.1-602aec8.jar, reap-1.11.1.jar, titanium-1.15.1-2.3.2.jar, travellersboots-1.15.1-1.3.1.jar, ultra_amplified_dimension-1.15.1-7.1.0.jar, useful_backpacks-1.15.1-1.8.3.51.jar, u_team_core-1.15.1-2.9.3.145.jar, valhelsia_structures-1.15.1-0.0.1.jar, TheVeggieWay-1.15.1-2.1.7.jar, vehicle-mod-0.42.4-1.15.1.jar, Waddles-1.15.1-0.8.4.jar, WallpaperCraft-1.15.1-1.1.0.jar, XL-Food-Mod-1.15.1-2.2.1.jar, elevatorid-1.15.1-1.5.4.jar, PackingTape-1.15.1-0.9.2.jar
+[03feb2020 21:03:51.828] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe titanium:test_serializer/saplings_to_sticks
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'titanium:test_serializer'
 	at net.minecraft.item.crafting.RecipeManager.lambda$deserializeRecipe$8(RecipeManager.java:133) ~[?:?]
-	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_241]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_221]
 	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:132) ~[?:?]
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:60) ~[?:?]
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:37) ~[?:?]
 	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
-	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_221]
 	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) [?:?]
 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
@@ -193,8 +193,8 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'titaniu
 	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:360) [?:?]
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:210) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:610) [?:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
-[02feb2020 16:37:22.851] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cfm:craft_sofa
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+[03feb2020 21:03:51.837] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cfm:craft_sofa
 com.google.gson.JsonSyntaxException: Invalid vehicle entity: vehicle:sofa
 	at com.mrcrayfish.vehicle.crafting.VehicleRecipeSerializer.read(VehicleRecipeSerializer.java:48) ~[?:0.42.4-1.15.1]
 	at com.mrcrayfish.vehicle.crafting.VehicleRecipeSerializer.func_199425_a_(VehicleRecipeSerializer.java:23) ~[?:0.42.4-1.15.1]
@@ -202,9 +202,9 @@ com.google.gson.JsonSyntaxException: Invalid vehicle entity: vehicle:sofa
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:60) ~[?:?]
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:37) ~[?:?]
 	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
-	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_221]
 	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) [?:?]
 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
@@ -218,11 +218,11 @@ com.google.gson.JsonSyntaxException: Invalid vehicle entity: vehicle:sofa
 	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:360) [?:?]
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:210) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:610) [?:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
-[02feb2020 16:37:22.864] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe vehicle:steep_boost_ramp
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+[03feb2020 21:03:51.840] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe vehicle:steep_boost_ramp
 com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
 	at net.minecraft.item.crafting.Ingredient.lambda$deserializeItemList$12(Ingredient.java:214) ~[?:?]
-	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_241]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_221]
 	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:213) ~[?:?]
 	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[?:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[?:?]
@@ -235,9 +235,9 @@ com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:60) ~[?:?]
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:37) ~[?:?]
 	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
-	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_221]
 	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) [?:?]
 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
@@ -251,18 +251,18 @@ com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
 	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:360) [?:?]
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:210) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:610) [?:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
-[02feb2020 16:37:22.882] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe titanium:test_serializer/dirt_to_diamod
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+[03feb2020 21:03:51.856] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe titanium:test_serializer/dirt_to_diamod
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'titanium:test_serializer'
 	at net.minecraft.item.crafting.RecipeManager.lambda$deserializeRecipe$8(RecipeManager.java:133) ~[?:?]
-	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_241]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_221]
 	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:132) ~[?:?]
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:60) ~[?:?]
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:37) ~[?:?]
 	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
-	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_221]
 	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) [?:?]
 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
@@ -276,11 +276,11 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'titaniu
 	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:360) [?:?]
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:210) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:610) [?:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
-[02feb2020 16:37:22.947] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe vehicle:boost_ramp
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+[03feb2020 21:03:51.917] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe vehicle:boost_ramp
 com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
 	at net.minecraft.item.crafting.Ingredient.lambda$deserializeItemList$12(Ingredient.java:214) ~[?:?]
-	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_241]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_221]
 	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:213) ~[?:?]
 	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[?:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[?:?]
@@ -293,9 +293,9 @@ com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:60) ~[?:?]
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:37) ~[?:?]
 	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
-	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_221]
 	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) [?:?]
 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
@@ -309,18 +309,18 @@ com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
 	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:360) [?:?]
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:210) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:610) [?:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
-[02feb2020 16:37:22.971] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe titanium:test_serializer/dirt_to_used
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+[03feb2020 21:03:51.924] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe titanium:test_serializer/dirt_to_used
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'titanium:test_serializer'
 	at net.minecraft.item.crafting.RecipeManager.lambda$deserializeRecipe$8(RecipeManager.java:133) ~[?:?]
-	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_241]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_221]
 	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:132) ~[?:?]
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:60) ~[?:?]
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:37) ~[?:?]
 	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
-	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_221]
 	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) [?:?]
 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
@@ -334,8 +334,8 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'titaniu
 	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:360) [?:?]
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:210) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:610) [?:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
-[02feb2020 16:37:22.992] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe veggie_way:carbs_from_forge
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+[03feb2020 21:03:51.933] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe veggie_way:carbs_from_forge
 com.google.gson.JsonSyntaxException: Unknown item tag 'forge:carbs'
 	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:221) ~[?:?]
 	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[?:?]
@@ -349,9 +349,9 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:carbs'
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:60) ~[?:?]
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:37) ~[?:?]
 	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
-	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_221]
 	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) [?:?]
 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
@@ -365,11 +365,11 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:carbs'
 	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:360) [?:?]
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:210) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:610) [?:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
-[02feb2020 16:37:23.005] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe vehicle:boost_pad
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+[03feb2020 21:03:51.937] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe vehicle:boost_pad
 com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
 	at net.minecraft.item.crafting.ShapedRecipe.lambda$deserializeItem$0(ShapedRecipe.java:264) ~[?:?]
-	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_241]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_221]
 	at net.minecraft.item.crafting.ShapedRecipe.func_199798_a(ShapedRecipe.java:263) ~[?:?]
 	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:283) ~[?:?]
 	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:274) ~[?:?]
@@ -377,9 +377,9 @@ com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:60) ~[?:?]
 	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:37) ~[?:?]
 	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
-	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_241]
-	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_241]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_221]
 	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) [?:?]
 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
@@ -393,47 +393,34 @@ com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
 	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:360) [?:?]
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:210) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:610) [?:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
-[02feb2020 16:37:23.025] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 10 recipes
-[02feb2020 16:37:24.504] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 839 advancements
-[02feb2020 16:37:25.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[02feb2020 16:37:28.551] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[02feb2020 16:37:28.552] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[02feb2020 16:37:28.552] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[02feb2020 16:37:28.553] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[02feb2020 16:37:28.554] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[02feb2020 16:37:28.554] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[02feb2020 16:37:28.555] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[02feb2020 16:37:29.217] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[02feb2020 16:37:29.450] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[02feb2020 16:37:30.267] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 5026 ms
-[02feb2020 16:37:30.303] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.895s)! For help, type "help"
-[02feb2020 16:37:30.570] [Server thread/INFO] [easy_steel/]: Server starting
-[02feb2020 16:37:30.574] [Server thread/INFO] [veggie_way/]: Server starting
-[02feb2020 16:37:31.983] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02feb2020 16:37:31.984] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02feb2020 16:37:31.985] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (ultraamplified): All chunks are saved
-[02feb2020 16:37:53.563] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Artego7 is 2ba86d69-576b-4dcf-adb9-bbbc48180685
-[02feb2020 16:37:55.179] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.player.PlayerEntity from class com.mrcrayfish.vehicle.common.CustomDataParameters
-[02feb2020 16:37:55.180] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.player.PlayerEntity from class com.mrcrayfish.vehicle.common.CustomDataParameters
-[02feb2020 16:37:55.182] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.player.PlayerEntity from class com.mrcrayfish.vehicle.common.CustomDataParameters
-[02feb2020 16:37:55.183] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.player.PlayerEntity from class com.mrcrayfish.vehicle.common.CustomDataParameters
-[02feb2020 16:37:55.659] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Artego7[/25.92.90.138:50538] logged in with entity id 355 at (272.52643257880385, 53.0, -235.63369449943082)
-[02feb2020 16:37:55.765] [Netty Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@5600f1d3 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
-[02feb2020 16:37:55.769] [Netty Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@60527d1 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
-[02feb2020 16:37:55.779] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Artego7 joined the game
-[02feb2020 16:38:00.352] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2081ms or 41 ticks behind
-[02feb2020 16:38:00.366] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
-[02feb2020 16:48:36.220] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Artego7: Teleported Artego7 to 782.5, 83.0, -5234.5]
-[02feb2020 16:54:52.815] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Artego7: Teleported Artego7 to 272.5, 64.0, -248.5]
-[02feb2020 17:50:22.654] [Netty Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@5600f1d3 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
-[02feb2020 17:50:22.662] [Netty Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@60527d1 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
-[02feb2020 17:50:24.946] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2275ms or 45 ticks behind
-[02feb2020 17:53:02.528] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Artego7 has made the advancement [Not Today, Thank You]
-[02feb2020 17:56:47.028] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Artego7 has made the advancement [Into Fire]
-[02feb2020 18:11:37.030] [Netty Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@5600f1d3 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
-[02feb2020 18:11:37.030] [Netty Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@60527d1 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
-[02feb2020 18:11:38.183] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02feb2020 18:11:39.757] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2586ms or 51 ticks behind
-[02feb2020 19:53:37.369] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Artego7 lost connection: Disconnected
-[02feb2020 19:53:37.371] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Artego7 left the game
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+[03feb2020 21:03:51.942] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 10 recipes
+[03feb2020 21:03:52.562] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 839 advancements
+[03feb2020 21:03:53.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03feb2020 21:03:53.676] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[03feb2020 21:03:53.676] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[03feb2020 21:03:54.063] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 957 ms
+[03feb2020 21:03:54.065] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.553s)! For help, type "help"
+[03feb2020 21:03:54.081] [Server thread/INFO] [easy_steel/]: Server starting
+[03feb2020 21:03:54.081] [Server thread/INFO] [veggie_way/]: Server starting
+[03feb2020 21:03:54.508] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03feb2020 21:03:54.511] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (ultraamplified): All chunks are saved
+[03feb2020 21:03:54.511] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03feb2020 21:04:48.077] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Artego7 is 2ba86d69-576b-4dcf-adb9-bbbc48180685
+[03feb2020 21:04:49.744] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.player.PlayerEntity from class com.mrcrayfish.vehicle.common.CustomDataParameters
+[03feb2020 21:04:49.744] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.player.PlayerEntity from class com.mrcrayfish.vehicle.common.CustomDataParameters
+[03feb2020 21:04:49.746] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.player.PlayerEntity from class com.mrcrayfish.vehicle.common.CustomDataParameters
+[03feb2020 21:04:49.746] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.player.PlayerEntity from class com.mrcrayfish.vehicle.common.CustomDataParameters
+[03feb2020 21:04:49.979] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Artego7[/25.92.36.16:64370] logged in with entity id 459 at (560.8770748059605, 66.0, -27.177946989838187)
+[03feb2020 21:04:50.019] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Artego7 joined the game
+[03feb2020 21:04:50.043] [Netty Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@cc61256 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[03feb2020 21:04:50.057] [Netty Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@3cd29071 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[03feb2020 21:04:50.311] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[03feb2020 21:07:39.224] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Artego7: Gave 1 [Traveller's Boots MK4] to Artego7]
+[03feb2020 21:08:16.537] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Artego7: Gave 1 [Command Block] to Artego7]
+[03feb2020 21:32:52.667] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Artego7: Set own game mode to Survival Mode]
+[03feb2020 23:35:52.408] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Artego7: Teleported Artego7 to -1365.5, 29.0, -1076.5]
+[03feb2020 23:36:11.870] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Artego7: Teleported Artego7 to 272.5, 64.0, -247.5]
+[03feb2020 23:36:11.881] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Artego7 moved too quickly! 1635.3429488156237,34.5,828.8141695976394
+[03feb2020 23:42:12.782] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Artego7 lost connection: Disconnected
+[03feb2020 23:42:12.783] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Artego7 left the game
